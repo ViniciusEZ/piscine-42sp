@@ -6,7 +6,7 @@
 /*   By: sdwolfgang <sdwolfgang@student.42.fr>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/29 10:13:16 by sdwolfgang        #+#    #+#             */
-/*   Updated: 2025/05/29 10:21:03 by sdwolfgang       ###   ########.fr       */
+/*   Updated: 2025/06/02 08:15:32 by sdwolfgang       ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,8 +16,10 @@ void    ft_print_numbers(void)
 {
     char    n;
     
-    for (n = '1'; n <= '9'; n++)
+    n = '0';
+    while (n <= '9')
     {
         write(1, &n, 1);
+        n++;
     }
 }

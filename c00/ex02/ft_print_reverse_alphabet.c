@@ -6,7 +6,7 @@
 /*   By: sdwolfgang <sdwolfgang@student.42.fr>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/29 10:09:49 by sdwolfgang        #+#    #+#             */
-/*   Updated: 2025/05/29 10:23:31 by sdwolfgang       ###   ########.fr       */
+/*   Updated: 2025/06/02 08:13:43 by sdwolfgang       ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,14 +16,10 @@ void    ft_print_reverse_alphabet(void)
 {
         char    z;
 
-        for (z = 'z'; z >= 'a'; z--)
+        z = 'z';
+        while (z >= 'a')
         {
             write(1, &z, 1);
+            z--;
         }
 }
-
-// int main()
-// {   
-//     ft_print_reverse_alphabet();
-//     return (0);
-// }
