@@ -3,28 +3,23 @@
 /*                                                        :::      ::::::::   */
 /*   ft_print_alphabet.c                                :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: sdwolfgang <sdwolfgang@student.42.fr>      +#+  +:+       +#+        */
+/*   By: vfirmino <vfirmino@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025/05/29 10:05:40 by sdwolfgang        #+#    #+#             */
-/*   Updated: 2025/06/02 08:12:27 by sdwolfgang       ###   ########.fr       */
+/*   Created: 2025/05/28 14:21:12 by vfirmino          #+#    #+#             */
+/*   Updated: 2025/05/29 13:01:57 by vfirmino         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include<unistd.h>
+#include <unistd.h>
 
-void    ft_print_alphabet(void)
+void	ft_print_alphabet(void)
 {
-    char    a;
+	char	a;
 
-    a = 'a';
-    while (a <= 'z')
-    {
-        write(1, &a, 1);
-        a++;
-    }
-}
-
-void main()
-{
-    ft_print_alphabet();
+	a = 'a';
+	while (a <= 'z')
+	{
+		write(1, &a, 1);
+		a++;
+	}
 }

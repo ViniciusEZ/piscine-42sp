@@ -3,19 +3,18 @@
 /*                                                        :::      ::::::::   */
 /*   ft_swap.c                                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: sdwolfgang <sdwolfgang@student.42.fr>      +#+  +:+       +#+        */
+/*   By: vfirmino <vfirmino@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025/06/02 08:23:34 by sdwolfgang        #+#    #+#             */
-/*   Updated: 2025/06/02 08:26:25 by sdwolfgang       ###   ########.fr       */
+/*   Created: 2025/05/29 15:17:16 by vfirmino          #+#    #+#             */
+/*   Updated: 2025/06/02 12:31:04 by vfirmino         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdio.h>
-
-void    ft_swap(int *a, int *b)
+void	ft_swap(int *a, int *b)
 {
-    int temp;
-    temp = *a;
-    *a = *b;
-    *b = temp;
+	int	temp;
+
+	temp = *a;
+	*a = *b;
+	*b = temp;
 }

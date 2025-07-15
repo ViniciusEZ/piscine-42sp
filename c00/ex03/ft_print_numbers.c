@@ -3,23 +3,23 @@
 /*                                                        :::      ::::::::   */
 /*   ft_print_numbers.c                                 :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: sdwolfgang <sdwolfgang@student.42.fr>      +#+  +:+       +#+        */
+/*   By: vfirmino <vfirmino@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025/05/29 10:13:16 by sdwolfgang        #+#    #+#             */
-/*   Updated: 2025/06/02 08:15:32 by sdwolfgang       ###   ########.fr       */
+/*   Created: 2025/05/28 14:55:28 by vfirmino          #+#    #+#             */
+/*   Updated: 2025/05/29 13:04:50 by vfirmino         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <unistd.h>
 
-void    ft_print_numbers(void)
+void	ft_print_numbers(void)
 {
-    char    n;
-    
-    n = '0';
-    while (n <= '9')
-    {
-        write(1, &n, 1);
-        n++;
-    }
+	char	zero;
+
+	zero = '0';
+	while (zero <= '9')
+	{
+		write(1, &zero, 1);
+		zero++;
+	}
 }

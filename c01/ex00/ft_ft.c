@@ -3,17 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   ft_ft.c                                            :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: sdwolfgang <sdwolfgang@student.42.fr>      +#+  +:+       +#+        */
+/*   By: vfirmino <vfirmino@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025/06/02 08:18:17 by sdwolfgang        #+#    #+#             */
-/*   Updated: 2025/06/02 08:20:00 by sdwolfgang       ###   ########.fr       */
+/*   Created: 2025/05/29 13:53:13 by vfirmino          #+#    #+#             */
+/*   Updated: 2025/05/29 15:39:05 by vfirmino         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-
-#include <stdio.h>
-
-void    ft_ft(int *nbr)
+void	ft_ft(int *nbr)
 {
-    *nbr = 42;
+	*nbr = 42;
 }

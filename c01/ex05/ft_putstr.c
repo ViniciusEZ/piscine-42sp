@@ -3,23 +3,23 @@
 /*                                                        :::      ::::::::   */
 /*   ft_putstr.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: sdwolfgang <sdwolfgang@student.42.fr>      +#+  +:+       +#+        */
+/*   By: vfirmino <vfirmino@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025/06/02 08:51:24 by sdwolfgang        #+#    #+#             */
-/*   Updated: 2025/06/02 08:53:25 by sdwolfgang       ###   ########.fr       */
+/*   Created: 2025/05/29 16:28:37 by vfirmino          #+#    #+#             */
+/*   Updated: 2025/06/02 12:44:59 by vfirmino         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <unistd.h>
 
-void ft_putstr(char *str)
+void	ft_putstr(char *str)
 {
-    int i;
+	int	i;
 
-    i = 0;
-    while (str[i] != '\0')
-    {
-        write(1, &str[i], 1);
-        i++;
-    }
+	i = 0;
+	while (str[i] != '\0')
+	{
+		i++;
+	}
+	write(1, str, i);
 }

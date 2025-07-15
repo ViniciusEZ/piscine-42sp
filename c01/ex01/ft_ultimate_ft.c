@@ -3,14 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   ft_ultimate_ft.c                                   :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: sdwolfgang <sdwolfgang@student.42.fr>      +#+  +:+       +#+        */
+/*   By: vfirmino <vfirmino@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025/06/02 08:22:58 by sdwolfgang        #+#    #+#             */
-/*   Updated: 2025/06/02 08:23:12 by sdwolfgang       ###   ########.fr       */
+/*   Created: 2025/05/29 14:00:38 by vfirmino          #+#    #+#             */
+/*   Updated: 2025/06/02 12:31:08 by vfirmino         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-void    ft_ultimate_ft(int *********nbr)
+void	ft_ultimate_ft(int *********nbr)
 {
-    *********nbr = 42;
+	*********nbr = 42;
 }
